@@ -1,10 +1,7 @@
+import Sprite from "./components/Sprite.tsx";
 
 function App() {
-    return (
-        <div>
-            <h1>Testing</h1>
-        </div>
-    )
+    return <Sprite/>
 }
 
-export default App
+export default App;

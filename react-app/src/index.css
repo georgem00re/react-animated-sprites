@@ -1,4 +1,18 @@
 
-:root {
-  background-color: #212121;
+.sprite {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 198px;
+  height: 210px;
+  background-image: url("https://i.cloudup.com/q3ZLPB9kVH.png");
+  animation: play .8s steps(8) infinite;
+}
+
+@keyframes play {
+  from { background-position: 0px; }
+  to { background-position: -1584px; }
 }
